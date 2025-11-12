@@ -329,10 +329,10 @@ function sumaMatriz(matriz) {
  */
 function obtenerFila(matriz, indiceFila) {
   // TODO: Retorna la fila indicada
-  function obtenerFila(matriz, indiceFila) {
+  
   
   return matriz[indiceFila];
-  }
+  
 }
 
 /**
@@ -367,7 +367,7 @@ function transponer(matriz) {
       fila.push(matriz[j][i]);
     }
     transpuesta.push(fila);
-  }f
+  }
   return transpuesta;
 }
 
