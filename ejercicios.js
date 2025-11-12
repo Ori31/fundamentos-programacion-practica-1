@@ -154,7 +154,11 @@ function factorial(n) {
  */
 function sumaHastaN(n) {
   // TODO: Usa un bucle para sumar todos los nÃºmeros desde 1 hasta n
-  return 0;
+  let resultado = 0;
+  for (let i = 1; i <= n; i++) {
+    resultado += i;
+  }
+  return resultado;
 }
 
 /**
